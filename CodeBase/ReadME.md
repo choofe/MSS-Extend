@@ -10,3 +10,4 @@ userform8: Form to collect data about a repair that is done and over, and regist
 userform9: Form to select which vehicles to create checklists for. (Currently it has no use because of the changed approach to UI)
 module1: library for doing main tasks and functions which are repeated often. Also functions and subs needed for date converting are in this module.
 UserFormEvents: class module for events of dynamically created textebox in runtime. tag property is for indexing options.
+There might be call to open History.xlsx which is based on an approach to retain histories on a different file for clarity. but there was a risk of losing that file or missing during the copying or moving the main file. New approach is to maintain histories just in the vehicle's page(sheet) which is more consistent.
