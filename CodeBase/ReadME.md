@@ -9,4 +9,4 @@ userform7: Form to register new odometer reading on each vehicle. It add textbox
 userform8: Form to collect data about a repair that is done and over, and registers it to vehicle's page as history.
 userform9: Form to select which vehicles to create checklists for. (Currently it has no use because of the changed approach to UI)
 module1: library for doing main tasks and functions which are repeated often. Also functions and subs needed for date converting are in this module.
-UserFormEvents: class module for events of dynamically created textebox in runtime. tag property
+UserFormEvents: class module for events of dynamically created textebox in runtime. tag property is for indexing options.
